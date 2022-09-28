@@ -11,7 +11,7 @@ import WatchLaterOutlinedIcon from '@mui/icons-material/WatchLaterOutlined';
 import ThumbUpOutlinedIcon from '@mui/icons-material/ThumbUpOutlined';
 import ExpandMoreOutlinedIcon from '@mui/icons-material/ExpandMoreOutlined';
 
-function Sidebar({selectedCategory,setselectedCategory}) {
+function Sidebar() {
   return (
     <div className='sidebar'>
         <SidebarRow selected Icon={HomeIcon} title="Home" />
