@@ -9,10 +9,12 @@
     background-color: #fff;
 }
 
+
 .header_logo{
     height: 25px;
     object-fit: contain;
     margin-left: 20px;
+    cursor: pointer;
 }
 
 .header_input{
@@ -20,10 +22,13 @@
     align-items: center;
     width: 40%;
     border: 1px solid lightgray;
+    cursor: text;
 }
 
 .header_icon{
     margin-left: 10px;
+    cursor: pointer;
+
 }
 
 .header_inputButton{
@@ -31,6 +36,7 @@
     background-color: #fafafa;
     border-left:1px solid lightgray;
     color: gray;
+    cursor: pointer;
 }
 
 .header_icons{

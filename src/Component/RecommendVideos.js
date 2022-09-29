@@ -15,58 +15,86 @@ import image8 from "../Utils/image8.webp";
 function RecommendVideos() {
   return (
     <div className="recommendVideos">
-      <h2>Recommended</h2>
+      <h2>Recommended Videos</h2>
       <div className="recommendVideos_videos">
+      <VideoCard 
+          title="Build a News App"
+          views="33k"
+          image={image1}
+          channel="Beginner "
+          channelImage={channelImage}
+          timestamp="3 days ago"
+          channelUrl="https://www.youtube.com/"
+        />
         <VideoCard
-          title="like a project"
-          views="2.3M Views"
-          timestamp="3 days ago"
+          title="Build ToDo Web App"
+          views="23k"
+          image={image1}
+          channel="Beginner"
           channelImage={channelImage}
-          channel="firecode"
-          image={image8} />
-        <VideoCard 
-        title="like a project"
-        views="2.3M Views"
-        timestamp="3 days ago"
-        channelImage={channelImage}
-        channel="firecode"
-        image={image1} />
-        <VideoCard  title="like a project"
-          views="2.3M Views"
-          timestamp="3 days ago"
+          timestamp="1 days ago"
+          channelUrl="https://www.youtube.com/"
+        />
+        <VideoCard
+          title="Build Chat App"
+          views="69k"
+          image={image1}
+          channel="Beginner"
           channelImage={channelImage}
-          channel="firecode"
-          image={image2} />
-        <VideoCard  title="like a project"
-          views="2.3M Views"
-          timestamp="3 days ago"
+          timestamp="9 days ago"
+          channelUrl="https://www.youtube.com/"
+        />
+
+        <VideoCard
+          title="Build a Wallpaper App "
+          views="18k"
+          image={image1}
+          channel="Beginner"
           channelImage={channelImage}
-          channel="firecode"
-          image={image3}  />
-        <VideoCard  title="like a project"
-          views="2.3M Views"
-          timestamp="3 days ago"
+          timestamp="13 days ago"
+          channelUrl="https://www.youtube.com/"
+        />
+
+        <VideoCard
+          title="Build a Recipe App"
+          views="2.3M"
+          image={image1}
+          channel="Beginner"
           channelImage={channelImage}
-          channel="firecode"
-          image={image4} />
-        <VideoCard   title="like a project"
-          views="2.3M Views"
-          timestamp="3 days ago"
+          timestamp="27 days ago"
+          channelUrl="https://www.youtube.com/"
+        />
+
+        <VideoCard
+          title="Learn How to Save Data"
+          views="10k"
+          image={image1}
+          channel="Beginner"
           channelImage={channelImage}
-          channel="firecode"
-          image={image5}/>
-        <VideoCard  title="like a project"
-          views="2.3M Views"
-          timestamp="3 days ago"
+          timestamp="8 days ago"
+          channelUrl="https://www.youtube.com/"
+        />
+
+        <VideoCard
+          title="Build Memory Game App "
+          views="2.3M"
+          image={image1}
+          channel="Beginner"
           channelImage={channelImage}
-          channel="firecode"
-          image={image6} />
-        <VideoCard  title="like a project"
-          views="2.3M Views"
-          timestamp="3 days ago"
+          timestamp="4 days ago"
+          channelUrl="https://www.youtube.com/"
+        />
+
+        <VideoCard
+          title="Building a Doctor App UI Design | Speed Code"
+          views="11k"
+          image={image1}
+          channel="Beginner"
           channelImage={channelImage}
-          channel="firecode"
-          image={image7} />
+          timestamp="3 months ago"
+          channelUrl="https://www.youtube.com/"
+        />
+        
       </div>
     </div>
   );

@@ -12,7 +12,7 @@ const Header = () => {
   return (
     <div className="header">
       <div className="header_left">
-        <MenuIcon />
+        <MenuIcon style={{cursor:"pointer"}} />
         <img className="header_logo" src={logo} alt="youtube" />
       </div>
 

@@ -18,9 +18,9 @@ function Sidebar() {
         <SidebarRow Icon={WhatshotIcon} title="Trending"/>
         <SidebarRow Icon={SubscriptionsIcon} title="Subscription"/>
         <hr/>
-        <SidebarRow Icon={VideoLibraryIcon} title="VideoLibrary"/>
-        <SidebarRow Icon={OndemandVideoTwoToneIcon} title="Ondemand"/>
-        <SidebarRow Icon={WatchLaterOutlinedIcon} title="WatchLater"/>
+        <SidebarRow Icon={VideoLibraryIcon} title="Video Library"/>
+        <SidebarRow Icon={OndemandVideoTwoToneIcon} title="On demand"/>
+        <SidebarRow Icon={WatchLaterOutlinedIcon} title="Watch Later"/>
         <SidebarRow Icon={HistoryIcon} title="History"/>
         <SidebarRow Icon={ThumbUpOutlinedIcon} title="Liked Videos"/>
         <SidebarRow Icon={ExpandMoreOutlinedIcon} title="Show More"/>
